@@ -75,7 +75,6 @@ function App() {
             fullWidth
             required
             label="Enter Phone no."
-            type="number"
             margin="normal"
           />
          
