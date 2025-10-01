@@ -40,7 +40,7 @@ function App() {
       <Box
         sx={{display: 'flex',justifyContent: 'center',alignItems: 'center',minHeight: '100vh',  backgroundColor: "black"}}
       >
-        <Paper elevation={5} sx={{ p: 3, width: 600 }}>
+        <Paper elevation={5} sx={{ p: 3, width: 600, backgroundColor:"lightblue"}}>
           <h1 style={{ textAlign: "center", color:'red' }}>Sports Event Registration</h1>
 
           <TextField value={userInput.name} onChange={(e)=>setUserInput({...userInput,name:e.target.value})}
